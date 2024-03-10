@@ -1,0 +1,132 @@
+.contatos_container {
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #d1e8ff;
+    user-select: none;
+
+}
+
+.desenvolvedor h1 {
+    font-size: 3em;
+
+
+}
+
+.desenvolvedor h1 span {
+    color: black;
+
+}
+
+.desenvolvedor h1 span:hover {
+    transform: scale(1.4);
+
+
+}
+
+.Cat1 {
+    transition: .5s;
+    transform: translate(0px);
+
+}
+
+.Cat2 {
+    transition: .5s;
+    transform: translate(200px);
+
+}
+
+.Cat3 {
+    transition: .5s;
+    transform: translate(-200px);
+
+}
+
+.desenvolvedor img {
+    max-width: 200px;
+}
+
+.desenvolvedor img:active {
+    transform: translate(100px);
+
+}
+
+.contatos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 3em;
+
+}
+
+.contatos a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    margin: 0.9em;
+    transition: .5s;
+    padding-bottom: 1em;
+}
+
+.contatos a:nth-child(1):hover {
+    color: rgb(255, 0, 195);
+    transform: scale(1.2);
+    border-bottom: 2px solid rgb(255, 0, 195);
+    
+}
+
+.contatos a:nth-child(2):hover {
+    color: rgb(12, 0, 82);
+    transform: scale(1.2);
+    border-bottom: 2px solid rgb(12, 0, 82);
+}
+
+.contatos a:nth-child(3):hover {
+    color: rgb(0, 106, 135);
+    transform: scale(1.2);
+    border-bottom: 2px solid rgb(0, 106, 135);
+}
+
+.contatos a:nth-child(4):hover {
+    color: rgb(255, 89, 0);
+    transform: scale(1.2);
+    border-bottom: 2px solid rgb(255, 89, 0);
+}
+
+
+.contatos a svg {
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+@media screen and (max-width:800px) {
+    .Cat1 {
+        transition: .5s;
+        transform: translate(0px);
+
+
+    }
+
+    .Cat2 {
+        transition: .5s;
+        transform: translate(0px);
+
+    }
+
+    .Cat3 {
+        transition: .5s;
+        transform: translate(0px);
+
+    }
+}

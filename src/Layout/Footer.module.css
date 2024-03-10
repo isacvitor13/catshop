@@ -1,0 +1,29 @@
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #0b1957;
+    padding: 2em;
+}
+
+.rodape section h4 {
+    color: #ffbb33;
+    font-size: .8em;
+}
+
+.rodape section ul {
+    list-style: none;
+}
+
+.rodape section ul li a,
+.rodape section ul li {
+    font-size: .8em;
+    color: #fff;
+    transform: 5s;
+    text-decoration: none;
+}
+
+.rodape section ul li:hover {
+    color: #ffbb33;
+
+}

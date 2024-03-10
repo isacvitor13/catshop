@@ -1,0 +1,40 @@
+.cat_card {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 5em;
+    box-shadow: 2px 4px 3px 0.5px #171717;
+}
+
+.container_img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 2em;
+}
+
+.container_text {
+    max-width: 600px;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 2px solid #222;
+
+}
+
+.container_text h1 {
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+.cat_card img {
+    max-width: 120px;
+    max-height: 120px;
+}

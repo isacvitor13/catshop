@@ -1,0 +1,82 @@
+.sobre {
+    background-color: #d1e8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    
+}
+
+.sobre h1 {
+    font-size: 3em;
+    margin-bottom: .4em;
+    flex: 100%;
+    text-align: center;
+}
+
+.apresent {
+    font-weight: bold;
+    margin: 15px;
+}
+.sobre div article a{
+    color: #000;
+    align-self: flex-end;
+
+}
+.sobre div article a:visited{
+    color: #1a0c4f;
+    align-self: flex-end;
+
+}
+.sobre div article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+}
+
+.sobre div img {
+    max-width: 330px; 
+    max-height: 280px;
+    padding: .5em;
+    /* margin-right: 2em; */
+
+    
+
+}
+
+.sobre div article {
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 2em;
+    max-width: 400px;
+    padding: 2em;
+    
+
+
+}
+
+.sobre div article h2 {
+    font-weight: normal;
+}
+
+.sobre div article p {
+    font-weight: normal;
+}
+
+.sobre div:nth-child(){
+    background-color: black;
+}

@@ -1,0 +1,18 @@
+ 
+.breeds{
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d1e8ff;
+    min-height: 80vh;
+}
+
+.breeds_title{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+

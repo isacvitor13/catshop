@@ -1,0 +1,34 @@
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: .9em;
+
+}
+
+.input select {
+    border: none;
+    padding: 1em 3em;
+    background-color: none;
+
+}
+
+.input select option {
+    color: #171717;
+    background-color: #dddddd;
+
+}
+
+.input svg {
+    border: none;
+    font-size: 1.3em;
+    transform: 0.5s;
+    background-color: rgb(255, 255, 255);
+    height: 43px;
+
+}
+
+.input svg:hover {
+    color: rgb(255, 34, 0);
+    
+}

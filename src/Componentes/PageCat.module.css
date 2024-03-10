@@ -1,0 +1,36 @@
+.gato{
+    padding: 3em;
+    background-color: #d1e8ff;
+   
+}
+.gato section{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.image_cat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0.6em;
+    margin: 10px;
+    box-shadow: 2px 4px 3px 0.5px  #171717;
+}
+.info{
+    max-width: 580px;
+}
+.image_cat img{
+    max-width: 260px;
+}
+p{
+    padding: 0.6em;
+}
+span{
+    font-weight: bold;
+
+}

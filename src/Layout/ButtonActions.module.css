@@ -1,0 +1,13 @@
+.button_action {
+    background-color: #0b1957;
+    width: 80px;
+    color: #f8f3ea;
+    text-decoration: none;
+    padding: 1em 2em;
+    cursor: pointer;
+    flex-wrap: wrap;
+    margin: 1em 2em;
+    /* display: flex; */
+   
+ 
+}

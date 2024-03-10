@@ -1,0 +1,30 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: #0b1957 ;
+}
+
+.cabecalho div {
+    width: 20%;
+    display: flex;
+    justify-content:space-between; 
+    flex-wrap: wrap;
+
+}
+.cabecalho h1{
+    color: #fff;
+}
+.cabecalho div a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: .2em;
+}
+.cabecalho div a:hover{
+color: #ffbb33;
+}
+.cabecalho img{
+    max-width: 100px;
+}

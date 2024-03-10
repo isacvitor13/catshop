@@ -1,0 +1,42 @@
+.inicio {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1e8ff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 80vh;
+}
+
+
+
+.inicio section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.cat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 0.6em;
+    margin: 10px;
+    box-shadow: 2px 4px 3px 0.5px  #171717;
+
+}
+
+.cat {
+    width: 280px;
+
+}
+
+.inicio section img {
+    max-width: 240px;
+}
